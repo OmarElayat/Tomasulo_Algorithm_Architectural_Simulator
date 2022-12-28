@@ -1,0 +1,30 @@
+instruction index,instruction,issued,started executing,finished executing,write back,committed
+0,ADDI,1,2,4,5,6
+1,ADDI,1,2,4,5,6
+2,ADDI,2,3,5,6,7
+3,ADDI,5,6,8,9,10
+4,BEQ,160,161,162,163,164
+5,SUB,161,162,164,165,154
+6,NAND,161,165,154,155,156
+7,STORE,162,163,154,155,156
+8,Load,162,155,158,159,160
+9,JMP,163,164,165,154,160
+10,ADDI,163,164,154,156,-842150451
+total execution time,-842150451,cycles
+IPC,-1.30618e-08
+branch miss,0
+instruction index,instruction,issued,started executing,finished executing,write back,committed
+0,ADDI,1,2,4,5,6
+1,ADDI,1,2,4,5,6
+2,ADDI,2,3,5,6,7
+3,ADDI,5,6,8,9,10
+4,BEQ,40,41,42,43,32
+5,SUB,41,42,32,33,34
+6,NAND,41,42,43,32,34
+7,STORE,42,43,34,35,36
+8,Load,42,35,38,39,40
+9,JMP,43,32,33,34,40
+10,ADDI,44,45,47,48,49
+total execution time,49,cycles
+IPC,0.22449
+branch miss,1

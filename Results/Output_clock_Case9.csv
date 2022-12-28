@@ -1,0 +1,19 @@
+instruction index,instruction,issued,started executing,finished executing,write back,committed
+0,ADDI,1,2,4,5,6
+1,ADDI,1,2,4,5,6
+2,ADDI,2,3,5,6,7
+3,ADDI,5,6,8,9,10
+4,BEQ,101,102,103,104,81
+5,MUL,102,103,89,90,91
+6,ADD,102,90,92,93,94
+7,Load,103,93,96,97,98
+8,ADDI,103,104,82,83,98
+9,ADD,104,97,99,100,101
+10,JAL,104,81,82,83,101
+11,ADDI,105,106,108,109,110
+total execution time,110,cycles,,,,
+IPC,0.109091,,,,,
+branch miss,1,,,,,
+,,,,,,
+,,,,,,
+Note: This test case illustrates how the simulator work with the loops,,,,,,

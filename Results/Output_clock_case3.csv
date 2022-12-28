@@ -1,0 +1,15 @@
+instruction index,instruction,issued,started executing,finished executing,write back,committed
+0,ADDI,1,2,4,5,6
+1,ADDI,1,2,4,5,6
+2,ADDI,2,5,7,8,9
+3,JAL,2,3,4,6,-842150451
+4,ADDI,5,6,8,-842150451,-842150451
+5,SUB,5,-842150451,-842150451,-842150451,-842150451
+6,MUL,6,7,-842150451,-842150451,-842150451
+7,NAND,6,-842150451,-842150451,-842150451,-842150451
+8,ADDI,9,10,12,13,14
+9,ADDI,10,11,13,14,15
+10,ADDI,10,11,13,14,15
+total execution time,15,cycles
+IPC,0.733333
+branch miss,0

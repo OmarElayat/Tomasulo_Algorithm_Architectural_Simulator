@@ -1,0 +1,16 @@
+addi a0,zero,4000
+addi a1,zero,4
+add t0,zero,zero
+add a2,zero,zero
+loop:
+bge t0,a1,exit
+auipc s2,70000
+slli t2,t0,2
+add t2,t2,a0
+lw t3,0(t2)
+add a2,a2,t3
+addi t0,t0,1
+jal t5,loop
+exit:
+add s0,a2,zero
+ecall s0,s1,s4

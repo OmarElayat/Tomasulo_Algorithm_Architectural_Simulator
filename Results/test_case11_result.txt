@@ -1,0 +1,175 @@
+.................................
+R0  Decimal: 0
+R1  Decimal: 11
+R2  Decimal: -6
+R3  Decimal: 4
+R4  Decimal: 12
+R5  Decimal: 4
+R6  Decimal: -6
+R7  Decimal: 0
+station num0
+busy0
+instruction typeLoad
+vj12
+vk0
+qj-1
+qk-1
+dest4
+address0
+address0
+.......
+station num1
+busy0
+instruction type
+vj0
+vk0
+qj-1
+qk-1
+dest0
+address0
+address0
+.......
+station num2
+busy0
+instruction type
+vj0
+vk0
+qj-1
+qk-1
+dest0
+address0
+address0
+.......
+station num3
+busy0
+instruction type
+vj0
+vk0
+qj-1
+qk-1
+dest0
+address0
+address0
+.......
+station num4
+busy0
+instruction typeJAL
+vj6
+vk0
+qj-1
+qk-1
+dest6
+address5
+address5
+.......
+station num5
+busy0
+instruction type
+vj0
+vk0
+qj-1
+qk-1
+dest0
+address0
+address0
+.......
+station num6
+busy0
+instruction typeBEQ
+vj4
+vk4
+qj-1
+qk-1
+dest1
+address11
+address11
+.......
+station num7
+busy0
+instruction type
+vj0
+vk0
+qj-1
+qk-1
+dest0
+address0
+address0
+.......
+station num8
+busy0
+instruction typeADDI
+vj-6
+vk0
+qj-1
+qk-1
+dest2
+address0
+address0
+.......
+station num9
+busy0
+instruction typeADDI
+vj4
+vk1
+qj-1
+qk-1
+dest5
+address0
+address0
+.......
+station num10
+busy0
+instruction typeADDI
+vj-6
+vk0
+qj-1
+qk-1
+dest8
+address0
+address0
+.......
+station num11
+busy0
+instruction typeNAND
+vj5
+vk5
+qj-1
+qk-1
+dest1
+address0
+address0
+.......
+station num12
+busy0
+instruction type
+vj0
+vk0
+qj-1
+qk-1
+dest0
+address0
+address0
+.......
+station num13
+busy0
+instruction typeMUL
+vj4
+vk4
+qj-1
+qk-1
+dest2
+address0
+address0
+.......
+station num14
+busy0
+instruction type
+vj0
+vk0
+qj-1
+qk-1
+dest0
+address0
+address0
+.......
+pc  Decimal: 10040052

@@ -1,0 +1,16 @@
+instruction index,instruction,issued,started executing,finished executing,write back,committed
+0,ADDI,1,2,4,5,6
+1,ADDI,1,2,4,5,6
+2,ADDI,2,5,7,8,9
+3,JAL,2,3,4,6,9
+4,ADDI,34,35,37,38,39
+5,SUB,35,38,40,41,42
+6,MUL,35,36,46,47,48
+7,NAND,36,47,48,49,50
+8,ADDI,36,37,39,40,50
+9,ADDI,38,39,41,42,33
+10,ADDI,40,41,43,44,33
+11,RET,40,41,42,43,-842150451
+total execution time,-842150451,cycles,,,,
+,,,,,,
+Note:,this test case is program running in infinite loop. This case are put to show how the simulator will deal with infinite loops,,,,,
