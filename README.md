@@ -86,4 +86,4 @@ At the end, the simulator prints the following performance metrics:
 6. The state of the reservation stations.
 7. The value of the registers after execution.
 
-***For more information regarding the implementation and the full simulation step-by-step user guide, refer to the documentation "report.pdf" file ***
+***For more information regarding the implementation and the full simulation step-by-step user guide, refer to the documentation "report.pdf" file***
